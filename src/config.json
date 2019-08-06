@@ -1,0 +1,5 @@
+{
+  "apiEndpoint": "https://jsonplaceholder.typicode.com/posts",
+  "apiMovieUrl": "http://localhost:4200/",
+  "apiEndpoint2": "https://reqres.in/"
+}

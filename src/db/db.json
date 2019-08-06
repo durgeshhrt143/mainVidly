@@ -1,0 +1,48 @@
+{
+  "genres": [
+    {
+      "id": 1,
+      "name": "Action"
+    },
+    {
+      "id": 2,
+      "name": "Horror"
+    },
+    {
+      "id": 3,
+      "name": "Comedy"
+    }
+  ],
+  "movies": [
+    {
+      "id": 5,
+      "title": "Us",
+      "genre": {
+        "id": 2,
+        "name": "Horror"
+      },
+      "numberInStock": 4,
+      "dailyRentalRate": 4.5
+    },
+    {
+      "id": 9,
+      "title": "Zombieland:Double Tap",
+      "genre": {
+        "id": 3,
+        "name": "Comedy"
+      },
+      "numberInStock": 3,
+      "dailyRentalRate": 4.5
+    },
+    {
+      "title": "Toy Story 4",
+      "genre": {
+        "id": 3,
+        "name": "Comedy"
+      },
+      "numberInStock": 4,
+      "dailyRentalRate": 3.5,
+      "id": 11
+    }
+  ]
+}

@@ -3,15 +3,25 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.1",
+    "bootstrap": "^4.1.1",
+    "fontawesome": "^4.7.0",
+    "joi-browser": "^13.4.0",
+    "lodash": "^4.17.10",
+    "node-sass": "^4.12.0",
+    "prop-types": "^15.6.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "3.0.1",
+    "react-toastify": "^4.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "json:server": "json-server --watch db.json"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -27,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "font-awesome": "^4.7.0"
   }
 }
